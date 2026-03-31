@@ -18,6 +18,7 @@ public class SecurityConfig {
                 .httpBasic(Customizer.withDefaults())
                 .formLogin(Customizer.withDefaults())
                 .authorizeHttpRequests(authorize -> authorize
+                        .requestMatchers("/api/recipe/**").permitAll()
                         .anyRequest().authenticated()
                 );
 
