@@ -1,4 +1,4 @@
-package no.thomasbirk.recipe.repository;
+package no.thomasbirk.recipe.recipe;
 
 import no.thomasbirk.recipe.models.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;

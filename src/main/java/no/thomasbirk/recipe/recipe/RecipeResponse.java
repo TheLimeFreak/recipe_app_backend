@@ -1,4 +1,4 @@
-package no.thomasbirk.recipe.dto;
+package no.thomasbirk.recipe.recipe;
 
 public record RecipeResponse(
         Long id,
